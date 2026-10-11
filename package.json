@@ -1,6 +1,6 @@
 {
   "name": "setup-mint-action",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "main": "dist/index.js",
   "private": true,
   "license": "Apache-2.0",
@@ -9,7 +9,7 @@
     "main": "ts-node src/main.ts"
   },
   "dependencies": {
-    "@actions/cache": "6.2.0",
+    "@actions/cache": "6.3.0",
     "@actions/core": "3.0.0",
     "@actions/exec": "3.0.0",
     "@actions/glob": "0.7.0",
@@ -17,9 +17,9 @@
     "uuid": "14.0.1"
   },
   "devDependencies": {
-    "@types/node": "24.13.3",
-    "@vercel/ncc": "0.44.1",
+    "@types/node": "24.19.2",
+    "@vercel/ncc": "0.45.0",
     "ts-node": "10.9.2",
-    "typescript": "7.0.2"
+    "typescript": "6.0.2"
   }
 }
